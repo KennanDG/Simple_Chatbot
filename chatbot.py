@@ -20,6 +20,12 @@ def get_response(user_input, user_name):
         return f"I'm sorry to hear that, {user_name}!  Your motivational quote is: Is life not a thousand times too short for us to bore ourselves? – Friedrich Nietzsche  How else are you feeling?"
     elif "lonely" in user_input:
         return f"I'm sorry to hear that, {user_name}!  Your motivational quote is: Feeling sorry for yourself, and your present condition, is not only a waste of energy but the worst habit you could possibly have. – Dale Carnegie  How else are you feeling?"
+    elif "amazing" in user_input:
+        return f"Great! I'm happy to hear that, {user_name}!  Your motivational quote is: The world is full of amazing things waiting for our senses to grow sharper. – W.B. Yeats  How else are you feeling?"
+    elif "excited" in user_input:
+        return f"Great! I'm happy to hear that, {user_name}!  Your motivational quote is: You can’t be that kid standing at the top of the waterslide, overthinking it. You have to go down the chute. – Tina Fey  How else are you feeling?"
+    elif "tired" in user_input:
+        return f"I'm sorry to hear that, {user_name}!  Your motivational quote is: Even when you’re tired, you keep going. – Taylor Jenkins Reid  How else are you feeling?"
     elif "bye" in user_input or "goodbye" in user_input:
         return f"Goodbye, {user_name}! Have a great day!"
     else:
